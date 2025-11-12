@@ -9,6 +9,7 @@ li a{
     text-decoration: none; /*Remove o sublinhado*/
     color: #fff;
     font-size: 20px; /*Diz o tamanho da minha fonte*/
+    padding: 20px;
 }
 
 li{
@@ -16,12 +17,38 @@ li{
 }
 
 #logo{
-height: 100px; /*Altura*/
-width: 180px; /*Largura*/
+height: 90px; /*Altura*/
+width: 140px; /*Largura*/
 }
 
 ul{
     display: flex; /*Indica a propriedade Flexbox*/
     flex-direction: row ; /**/
-    padding: 30px;
+}
+
+.menu { /*classe para o menu de navegação*/ 
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.caixa-img-logo { /*classe para caixa da imagem*/ 
+background-color: blue;
+height: 90px;
+width: 90px;
+}
+
+.bi{
+    font-size: 35px;
+    color: #4c544c;
+}
+
+.banner{
+    background-image: url("./assets/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 800px;
+    border-radius: 25px;
 }
