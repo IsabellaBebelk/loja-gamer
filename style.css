@@ -1,46 +1,52 @@
 *{
-padding: 0%;
-margin: 0%;
-background-color:#1a1a1a; /*Mudar a cor do fundo*/
+    padding: 0;
+    margin: 0;
+    /* background-color: #1a1a1a; Mudar a cor do fundo */
 }
 
-
+body{
+    background-color: #1a1a1a;
+}
 li a{
-    text-decoration: none; /*Remove o sublinhado*/
-    color: #fff;
-    font-size: 20px; /*Diz o tamanho da minha fonte*/
-    padding: 20px;
+text-decoration: none; /*Remove o sublinhado */
+font-size: 20px; /* Tamanho da font*/
+color: #ffffff; /*Mudar a cor da font*/
+padding: 20px;
 }
 
 li{
-    list-style: none; /*Remover formatação da lista*/
+    list-style: none; /* Remover formartação da lista*/
 }
 
 #logo{
-height: 90px; /*Altura*/
-width: 140px; /*Largura*/
+
+    height: 90px; /*Altura*/
+    width: 140px; /*Largura*/
 }
 
 ul{
-    display: flex; /*Indica a propriedade Flexbox*/
-    flex-direction: row ; /**/
+    display: flex; /*Indica a prpriedade FlexBox*/
+    flex-direction: row; /*Colocar os elementos na horizontal ou na vertical*/
+
+
 }
 
-.menu { /*classe para o menu de navegação*/ 
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-evenly;
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+   
 }
 
-.caixa-img-logo { /*classe para caixa da imagem*/ 
-background-color: blue;
-height: 90px;
-width: 90px;
+.caixa-img-logo{
+    height: 90px;
+    width: 90px;
 }
 
 .bi{
-    font-size: 35px;
+
+    font-size: 30px;
     color: #4c544c;
 }
 
@@ -52,31 +58,90 @@ width: 90px;
 } 
 
 .banner{
-    background-image: url("./assets/banner.png");
+    background-image:url("./assets/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 500px;
     width: 800px;
-    border-radius: 25px;
-  display: flex;
+    border-radius: 15px;
+    display: flex;
     align-items: center;
 }
 .texto-banner{
-    font-size: 30px;
+    font-size: 25px;
     color: #ffffff;
 }
 .btn-menu{
-width: 150px;
-height: 50px;
+width: 145px;
+height: 40px;
 border-radius: 30px;
 background-color: #333333;
 color: #ffffff;
 font-weight: bold;
 border: none;
 font-size: 19px;
-
+margin: 25px;
 }
 
 .caixa-texto-banner{
-width: 270px;
+width: 220px;
+padding: 35px; /*Espaçamento interno*/
+}
+.section-center{
+
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-primario{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight:700;
+    padding: 20px;
+}
+
+.estutura-titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.produtos{
+    height: 350px;
+    width: 190px;
+
+}
+
+.valor{
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.cores{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+.vermelho{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.laranja{
+    background-color: orange;
+}
+
+.preto{
+    background-color: black;
+}
+
+.caixa-cores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100px;
 }
