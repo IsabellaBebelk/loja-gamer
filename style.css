@@ -162,11 +162,36 @@ padding: 35px; /*Espaçamento interno*/
 }
 
 
+
 .banner-xbox{
-    background-image: url(./assets/x-box.png);
-     background-repeat: no-repeat;
+    background-image: url("./assets/x-box.png");
+    height: 450px;
+    width: 950px;
     background-size: cover;
-    height: 300px;
-    width: 500px;
-    border-radius: 15px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texto-xbox{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+
+.banner-xbox{
+    display: flex;
+    justify-content: end;
+}
+
+.xbox-caixa{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin: 20px;
+  
 }
