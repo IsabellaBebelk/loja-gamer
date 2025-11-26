@@ -195,3 +195,68 @@ padding: 35px; /*Espaçamento interno*/
     margin: 20px;
   
 }
+
+.caixa-btn-xbox {
+    align-self: center;
+    margin-top: 17px;
+}
+
+.btn-xbox {
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #333333;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+}
+
+.caixa-footer{
+    color: #ffffff;
+}
+
+.footer {
+    padding: 20px 0; /* Espaçamento interno */
+  }
+  
+
+  .caixa-footer {
+    justify-content: center; /* Espaço entre as colunas */
+    margin: 0 auto; /* Centraliza o container */
+    width: 90%; /* Largura */
+    align-items: center;
+  }
+  
+  .footer-recursos {
+    width: 20%; /* Largura de cada coluna */
+  }
+  
+  .footer-econtact h3 {
+    margin-bottom: 15px;
+  }
+
+  .all{
+    display: flex;
+  }
+  
+  
+  ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #333;
+  }
+
+  .caixa3{
+    background-color: #353434;
+    width: 1000px;
+    height: 200px;
+  }
